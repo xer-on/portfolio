@@ -1,0 +1,29 @@
+* {}
+
+nav {
+    display: flex;
+}
+
+nav span {
+    color: red;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li button {
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
