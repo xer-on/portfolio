@@ -1,5 +1,9 @@
-* {}
+* {
+    font-family: 'Open Sans', sans-serif;
 
+}
+
+/* navbar design */
 nav {
     display: flex;
     align-items: center;
@@ -17,7 +21,6 @@ nav>ul {
 
 nav h3 {
     color: var(--Dark-01, #181818);
-    font-family: Open Sans;
     font-size: 45px;
     font-style: normal;
     font-weight: 800;
@@ -40,9 +43,50 @@ li a {
     background: #FD6E0A;
     border: none;
     color: white;
-    font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+/* header design */
+.header {
+    background-color: #FFF8F3;
+
+}
+
+.greeting {
+    color: #474747;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.title {
+    color: #181818;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.para {
+    color: #757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    padding: 160px 30px 120px 230px;
+}
+
+.profile-pic {
+    width: 584px;
+    height: 676px;
+
 }
