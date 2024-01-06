@@ -123,6 +123,9 @@ li a {
 }
 
 /* main */
+main section{
+    margin-top: 150px;
+}
 .about {
     margin: 130px auto;
     padding: 130px;
@@ -207,37 +210,45 @@ li a {
     margin: 30px 150px;
 }
 
-.section {
-   
-}
+.section {}
 
 .skills-container {
     display: flex;
     gap: 20px;
-    margin-left: 230px;
-    margin-right: 230px;
+    margin-left: 330px;
+    margin-right: 330px;
 
 
 }
 
 .skill {
-padding: 30px;
-border-radius: 5px;
-background: #FFF;
-box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 
 }
-.skill-title{
+
+.skill-title {
     padding-bottom: 20px;
+    color: #181818;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
+
 .skill-description {
-    color: var(--Dark-03, #757575);
-    font-family: Open Sans;
+    color: var #757575;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px; /* 175% */
+    line-height: 28px;
+    /* 175% */
+    text-align: left;
 }
+
 div .skill img {
     padding-bottom: 30px;
 }
