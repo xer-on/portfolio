@@ -124,7 +124,7 @@ li a {
 
 /* main */
 .about {
-    margin: 130px 230px;
+    margin: 130px auto;
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
