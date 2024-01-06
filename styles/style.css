@@ -123,9 +123,10 @@ li a {
 }
 
 /* main */
-main section{
+main section {
     margin-top: 150px;
 }
+
 .about {
     margin: 130px auto;
     padding: 130px;
@@ -251,4 +252,25 @@ main section{
 
 div .skill img {
     padding-bottom: 30px;
+}
+
+/* summery styles */
+.summery-conatainer{
+    display: flex;
+}
+.summery-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.resume-summery-title {
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
