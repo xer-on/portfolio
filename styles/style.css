@@ -2,6 +2,8 @@
 
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 nav span {
@@ -10,6 +12,16 @@ nav span {
 
 nav>ul {
     display: flex;
+    align-items: center;
+}
+
+nav h3 {
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 nav li {
@@ -22,8 +34,15 @@ li a {
     color: black;
 }
 
-li button {
+.primary-button {
     padding: 18px 35px;
     border-radius: 5px;
     background: #FD6E0A;
+    border: none;
+    color: white;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
