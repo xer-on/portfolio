@@ -255,11 +255,12 @@ div .skill img {
 }
 
 /* summery styles */
-.summery-conatainer{
+.summery-conatainer {
     display: flex;
     justify-content: center;
     gap: 71px;
 }
+
 .summery-title {
     color: #181818;
     text-align: center;
@@ -278,22 +279,39 @@ div .skill img {
     line-height: normal;
     padding-bottom: 30px;
 }
-.resume-item-title{
+
+.resume-item-title {
     padding-bottom: 10px;
 }
-.resume-item-info{
+
+.resume-item-info {
     padding-bottom: 20px;
 }
-hr{
+
+hr {
     margin-top: 30px;
-   margin-bottom: 30px;
+    margin-bottom: 30px;
 }
-.summery-column-one{
+
+.summery-column-one {
     padding-left: 250px;
 }
-.summery-column-two{
+
+.summery-column-two {
     padding-right: 250px;
 }
-.resume-item-description{
+
+.resume-item-description {
     width: 511px;
+}
+
+section button {
+    text-align: center;
+    justify-content: center;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
 }
