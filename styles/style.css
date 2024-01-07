@@ -257,6 +257,8 @@ div .skill img {
 /* summery styles */
 .summery-conatainer{
     display: flex;
+    justify-content: center;
+    gap: 71px;
 }
 .summery-title {
     color: #181818;
@@ -265,6 +267,7 @@ div .skill img {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-bottom: 113px;
 }
 
 .resume-summery-title {
@@ -273,4 +276,24 @@ div .skill img {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-bottom: 30px;
+}
+.resume-item-title{
+    padding-bottom: 10px;
+}
+.resume-item-info{
+    padding-bottom: 20px;
+}
+hr{
+    margin-top: 30px;
+   margin-bottom: 30px;
+}
+.summery-column-one{
+    padding-left: 250px;
+}
+.summery-column-two{
+    padding-right: 250px;
+}
+.resume-item-description{
+    width: 511px;
 }
