@@ -315,3 +315,77 @@ section button {
     margin-top: 50px;
     margin-bottom: 113px;
 }
+
+/* footer style */
+footer {
+    background: #FFF8F3;
+}
+
+.footer-container {
+    display: flex;
+    padding-top: 130px;
+}
+
+.footer-column-one {
+    padding-left: 230px;
+}
+.footer-column-two{
+    padding-right: 386px;
+    display: block;
+}
+.footer-title {
+    color: #181818;
+    padding-left: 230px;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.footer-description {
+    width: 562px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 230px;
+}
+
+.social-icons {
+    padding-left: 230px;
+}
+
+.social-icons img {
+    padding-right: 24px;
+}
+.footer-form input,
+textarea {
+    
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    border-radius: 5px;
+    border: none;
+    background: #FFF;
+    margin-bottom: 24px;
+    margin-left: 117px;
+    padding: 18px 30px;
+}
+.footer-form > input {
+    margin-top: 28px;
+}
+.footer-form input {
+    width: 461px;
+    height: 64px;
+    flex-shrink: 0;
+}
+.footer-form textarea {
+    width: 461px;
+    height: 180px;
+}
+#submit{
+    margin-bottom: 130px;
+    margin-left: 120px;
+}
